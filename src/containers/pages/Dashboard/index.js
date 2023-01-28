@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class Login extends Component {
+class Dashboard extends Component {
   render() {
     return (
       <div>
-        <p>Login Page</p>
+        <p>Dashboard Page</p>
         <button>Go to Register</button>
-        <button>Go to Dashboard</button>
+        <button>Go to Login</button>
       </div>
     );
   }
 }
 
-export default Login;
+export default Dashboard;
